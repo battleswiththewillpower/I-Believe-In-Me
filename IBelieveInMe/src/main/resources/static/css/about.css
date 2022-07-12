@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	margin: 25px 30px;
+	margin-bottom:60px;
+}
+h1 {
+	font-size: 3em;
+}
+
+.text{
+	text-align: center;
+	font-size: 1.2em;
+}
+p {
+	white-space: pre-wrap;
+}
+.col-one, .col-two{
+	padding: 20px;
+}
+
+#ballet-feet{
+	width:100%;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+h1 {
+	font-size:1em;
+}
+.text{
+	font-size:.5em;
+}
+   .column {
+    width: 100%;
+    
+  } 
+  
+  #ballet-feet{
+  
+  }
+}

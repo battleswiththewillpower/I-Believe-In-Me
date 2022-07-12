@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+.container{
+	margin: 40px;
+	display: flex;
+	/* align-items: baseline; */
+	justify-content:center;
+	margin-bottom:60px;
+}
+
+.first-col {
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	margin-right:60px;
+	
+}
+
+.first-col h1{
+	font-size:3.2em;
+	text-shadow: 0 0 5px #c10d34;
+	letter-spacing: 2px;
+	
+}
+ 
+.monthly {
+
+	color: #c10d34;
+} 
+
+.text {
+	font-size: 1.3em;
+	padding: 5px;
+}
+
+#paypal-donate-button-container {
+	margin: 25px 0px;
+}
+
+.links {
+	margin-bottom: 30px;
+	font-size:1em;
+	
+	
+}
+
+/* .links a:link, .links a:visited {
+  background-color: #c10d34;
+  color: whitesmoke;
+  border: 2px solid #c10d34;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+} */
+
+/* .links a:hover, .links a:active {
+  background-color: white;
+  color: black;
+} */
+
+.first-col img, .second-col img {
+	width:100%;
+	height: auto;
+	border-radius: 10px;
+	border: 1px solid whitesmoke;
+} 
+
+.image-container {
+
+
+	position: relative;
+
+	
+	
+}
+
+#bellydancer {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+#bellydancer:hover{
+	opacity: 1;
+}
+/* .second-col {
+	
+} */
+
+#kimberly{
+	width:20vw;
+	margin-left: 90px;
+	margin-top: 15px;
+
+}

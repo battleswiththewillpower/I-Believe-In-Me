@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+ .donationHistory {
+	margin: 20px;
+} 
+
+.donationHistory h3 {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#history {
+	border-collapse: collapse;
+	
+	
+}
+
+#history td, history th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#history tr:nth-child(even){background-color: black;}
+
+#history tr:hover {background-color: #ddd;
+color: black;
+}
+
+#history th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #c10d34;
+  color: whitesmoke;
+}
+
+.user-info{
+	background-color: #c10d34;
+}
